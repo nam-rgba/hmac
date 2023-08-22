@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://hmac-fe.vercel.app/",
+    origin: "https://hmac-fe.vercel.app",
     // origin: "http://localhost:5173",
     methods: ["GET", "PUT", "POST", "DELETE"],
     optionsSuccessStatus: 204,
