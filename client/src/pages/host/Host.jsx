@@ -129,13 +129,11 @@ export default function Host() {
           <div className={style.title1}>
             <span>Airbnb it.</span>
             <br />
-            Send email with asymmetric encryption and HMAC
+            Send email with  HMAC
           </div>
           <div className={style.cash}>
             <span>First, </span>
-            Choose your key and pass it with
-            <br />
-            <b> asymmetric encryption</b>
+            <br />       
           </div>
 
           {/* <div className={style.form2}>
